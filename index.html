@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./assels/css/style.css">
+    <link rel="stylesheet" href="./assels/css/font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assels/css/all.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div class="row">
+                <a href="#" class="logo">
+                    <img src="./assels/image/Logo.png" alt="">
+                </a>
+                <nav>
+                    <i class="fa-solid fa-bars" onclick="tugglemenu()"></i>
+                    <ul id="menu">
+                        <i class="fa-sharp fa-solid fa-xmark" onclick="tugglemenu()"></i>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Package<i class="fa-solid fa-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Goa</a></li>
+                                <li><a href="#">Manali</a></li>
+                                <li><a href="#">Ladak</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Destination<i class="fa-solid fa-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Goa</a></li>
+                                <li><a href="#">Manali</a></li>
+                                <li><a href="#">Ladak</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog<i class="fa-solid fa-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Goa</a></li>
+                                <li><a href="#">Manali</a></li>
+                                <li><a href="#">Ladak</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="search" id="icone-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-data animate__animated wow animate__pulse animate__slow">
+                    <h1>
+                        Make in <br>
+                        your journey.
+                    </h1>
+                    <p>
+                        Explore the world with what you love beautiful <br> natural beauty.
+                    </p>
+
+                    <form class="serch-from" action="">
+                        <select name="Location " id="">
+                            <option value="0">Location</option>
+                            <option value="surat">surat</option>
+                            <option value="navsari">navsari</option>
+                            <option value="bilimora">bilimora</option>
+                        </select>
+                        <select name="Date" id="">
+                            <option value="0">Date</option>
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+
+                            <option value="3">3</option>
+                        </select>
+                        <select name="people" id="">
+                            <option value="0">People</option>
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <input type="submit" value="Explore now" class="explore">
+                    </form>
+
+                    <p><span id="span"> Popular Place : </span> Bali, Istanbul, Rome, Paris.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Explore">
+
+            <div class="container">
+                <div class="main-title">
+                    <h2 class="animate__animated wow animate__fadeInUp animate__slow">Explore new worlds with <br> exotic natural scenery</h2>
+                    <p class="animate__animated wow animate__fadeInUp animate__slow">Explore the world with what you love beautiful natural beauty.</p>
+
+                </div>
+                <div class="icon">
+                    <div class="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="swiper Explore-slider">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="Explore-img animate__animated wow animate__fadeInTopLeft animate__delay-1s">
+                                <img src="./assels/image/Explore-1.jpg" alt="">
+                            </div>
+
+                            <div class="Explore-data animate__animated wow animate__fadeInUp animate__delay-1s">
+                                <div class="circle">
+                                    <span>“</span>
+                                </div>
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="Explore-data animate__animated wow animate__fadeInUp animate__delay-1s">
+                                <img src="./assels/image/Explore-2.jpg" alt="">
+                            </div>
+
+                            <div class="Explore-data animate__fadeInTopRight">
+                                <div class="circle">
+                                    <span>“</span>
+                                </div>
+                                <h3>Ladak, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="Explore-img">
+                                <img src="./assels/image/Explore-3.jpg" alt="">
+                            </div>
+
+                            <div class="Explore-data">
+                                <div class="circle">
+                                    <span>“</span>
+                                </div>
+                                <h3>Goa,Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="Explore-img">
+                                <img src="./assels/image/Explore-1.jpg" alt="">
+                            </div>
+
+                            <div class="Explore-data">
+                                <div class="circle">
+                                    <span>“</span>
+                                </div>
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="Explore-img">
+                                <img src="./assels/image/Explore-4.jpg" alt="">
+                            </div>
+
+                            <div class="Explore-data">
+                                <div class="circle">
+                                    <span>“</span>
+                                </div>
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="Explore-img">
+                                <img src="./assels/image/Explore-5.jpg" alt="">
+                            </div>
+
+                            <div class="Explore-data">
+                                <div class="circle">
+                                    <span>“</span>
+                                </div>
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="Explore-img">
+                                <img src="./assels/image/Explore-1.jpg" alt="">
+                            </div>
+
+                            <div class="Explore-data">
+                                <div class="circle">
+                                    <span>“</span>
+                                </div>
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="Why-select">
+
+            <div class="container">
+                <div class="main-title">
+                    <h2 class="animate__animated wow animate__pulse animate__slow">Why choose Us?</h2>
+                    <p class="animate__animated wow animate__pulse animate__slow">our services have been trusted by world travelers.</p>
+                </div>
+                <div class="why-iconslider">
+                    <div class="why-icon">
+                        <div class="why-prev">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <div class="why-next">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper why-Swiper Explore-data animate__animated wow animate__fadeInDown animate__slow">
+                        <div class="swiper-wrapper animate__animated wow animate__pulse animate__slow">
+                            <div class="swiper-slide">
+                                <div class="why-data">
+                                    <img src="./assels/image/why-select1.png" alt="">
+                                    <h4>Best Service</h4>
+                                    <p>our service is reliable and convenient, our service is quality.</p>
+                                    <a href="#">Leaern more<i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="why-data">
+                                    <img src="./assels/image/why-select2.png" alt="">
+                                    <h4>Price Guarantee</h4>
+                                    <p>our service is reliable and convenient, our service is quality.</p>
+                                    <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="why-data">
+                                    <img src="./assels/image/why-select3.png" alt="">
+                                    <h4>Handpicked Hotels</h4>
+                                    <p>our service is reliable and convenient, our service is quality.</p>
+                                    <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="why-data">
+                                    <img src="./assels/image/why-select1.png" alt="">
+                                    <h4>Best Service</h4>
+                                    <p>our service is reliable and convenient, our service is quality.</p>
+                                    <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="why-data">
+                                    <img src="./assels/image/why-select2.png" alt="">
+                                    <h4>Price Guarantee</h4>
+                                    <p>our service is reliable and convenient, our service is quality.</p>
+                                    <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="why-data">
+                                    <img src="./assels/image/why-select3.png" alt="">
+                                    <h4>Handpicked Hotels</h4>
+                                    <p>our service is reliable and convenient, our service is quality.</p>
+                                    <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="partner">
+            <div class="container">
+                <div class="main-title">
+                    <h2 class="animate__animated wow animate__flipInX animate__slow">Our tour partner</h2>
+                    <p class="animate__animated wow animate__zoomIn animate__slow">There are many variation of passage of lorem ipsum available <br> but the majority have suffered
+                        alteration </p>
+                </div>
+                <div class="pimg Explore-data">
+                    <div class="partner-img animate__animated wow animate__fadeInLeft animate__slow">
+                        <img src="./assels/image/pa1.png" alt="">
+                    </div>
+                    <div class="partner-img animate__animated wow animate__fadeInLeft animate__slow">
+                        <img src="./assels/image/pa2.png" alt="">
+                    </div>
+                    <div class="partner-img animate__animated wow animate__fadeInDown animate__slow">
+                        <img src="./assels/image/pa3.png" alt="">
+                    </div>
+                    <div class="partner-img animate__animated wow animate__fadeInRight animate__slow">
+                        <img src="./assels/image/pa4.png" alt="">
+                    </div>
+                    <div class="partner-img animate__animated wow animate__fadeInRight animate__slow">
+                        <img src="./assels/image/pa5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="client">
+            <div class="client-container">
+                <div class="client-say">
+                    <h3>TESTIMONIAL</h3>
+                    <h2>What our client say</h2>
+                    <p>Create a visual identity for your company and a <br> overall brand</p>
+                </div>
+                <div class="client-profile">
+                    <div class="client-icone">
+                        <div class="cli-prev">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <div class="cli-next">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper clinet-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="clinet-bio">
+                                    <div class="clinet-img">
+                                        <img src="./assels/image/client1.png" alt="">
+                                    </div>
+                                    <div class="star-icone">
+                                        <h4>Sara Jay</h4>
+                                        <h5>Treveller </h5>
+                                        <a href="#">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                        </a>
+                                        <p>Before we define any approach, we need to deline the brands overall
+                                            goal. We then
+                                            need to dive.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="clinet-bio">
+                                    <div class="clinet-img">
+                                        <img src="./assels/image/client 2.png" alt="">
+                                    </div>
+                                    <div class="star-icone">
+                                        <h4>Cristian Daniel</h4>
+                                        <h5>Treveller </h5>
+                                        <a href="#">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                        </a>
+                                        <p>Before we define any approach, we need to deline the brands overall
+                                            goal. We then
+                                            need to dive.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="clinet-bio">
+                                    <div class="clinet-img">
+                                        <img src="./assels/image/client 3.png" alt="">
+                                    </div>
+                                    <div class="star-icone">
+                                        <h4>Kausar Hasan</h4>
+                                        <h5>Treveller </h5>
+                                        <a href="#">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                        </a>
+                                        <p>Before we define any approach, we need to deline the brands overall
+                                            goal. We then
+                                            need to dive.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="clinet-bio">
+                                    <div class="clinet-img">
+                                        <img src="./assels/image/client1.png" alt="">
+                                    </div>
+                                    <div class="star-icone">
+                                        <h4>Sara Jay</h4>
+                                        <h5>Treveller </h5>
+                                        <a href="#">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                        </a>
+                                        <p>Before we define any approach, we need to deline the brands overall
+                                            goal. We then
+                                            need to dive.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="clinet-bio">
+                                    <div class="clinet-img">
+                                        <img src="./assels/image/client 2.png" alt="">
+                                    </div>
+                                    <div class="star-icone">
+                                        <h4>Cristian Daniel</h4>
+                                        <h5>Treveller </h5>
+                                        <a href="#">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                        </a>
+                                        <p>Before we define any approach, we need to deline the brands overall
+                                            goal. We then
+                                            need to dive.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="Subc">
+            <div class="container">
+                <div class="main-title">
+                    <h2>Subcribe to get special price</h2>
+                    <p>Dont wanna miss something? subscribe right now and get special <br> promotion and monthly
+                        newsletter</p>
+                    <form class="subbot" action="">
+                        <input type="email" name="email" placeholder="Type your  email here" class="email">
+                        <input type="submit" value="Subscribe" class="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-data">
+                    <div class="box">
+
+                        <img src="./assels/image/logo2.png" alt="">
+
+                        <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Quisque pharetra condimentum.
+                        </p>
+
+                    </div>
+                    <div class="Contact">
+                        <ul>
+                            <li>
+                                <h4>Contact Information</h4>
+                            </li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="#">732 Despard St, Atlanta</a>
+                            </li>
+                            <li><i class="fa-solid fa-envelope"></i><a href="#">+97 888 8888</a>
+                            </li>
+                            <li><i class="fa-solid fa-phone"></i><a href="#">info@traveller.com</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="Quick">
+                        <ul>
+                            <li>
+                                <h4>Quick Link</h4>
+                            </li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Tours</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="Follow">
+                        <ul>
+                            <h4>Follow Us</h4>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li> <a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="black">
+                <a href="#">Copyright © 2021 UNQ Design</a>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        var swiper = new Swiper(".Explore-slider ", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 12,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 26,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+            },
+            navigation: {
+                nextEl: '.next',
+                prevEl: '.prev',
+            },
+
+        });
+    </script>
+    <script>
+        var swiper1 = new Swiper(".why-Swiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 60,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 90,
+                },
+            },
+            navigation: {
+                nextEl: '.why-next',
+                prevEl: '.why-prev',
+            },
+
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".clinet-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1.1,
+                    spaceBetween: 70,
+                },
+                575: {
+                    slidesPerView: 1.1,
+                    spaceBetween: 70,
+                },
+                640: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 40,
+                },
+                768: {
+                    slidesPerView: 2.3,
+                    spaceBetween: 60,
+                },
+                1024: {
+                    slidesPerView: 3.6,
+                    spaceBetween: 90,
+                },
+            },
+            navigation: {
+                nextEl: '.cli-next',
+                prevEl: '.cli-prev',
+            },
+        });
+    </script>
+
+    <script>
+        window.onscroll = function () {
+            console.log(scroll)
+            this.scrollY > 20 ?
+                document.getElementById("main-header").classList.add("dark-header") :
+                document.getElementById("main-header").classList.remove("dark-header");
+
+        }
+        function tugglemenu() {
+            document.getElementById("menu").classList.toggle("showHide");
+            if (document.getElementById("menu").classList.contains("showHide")) {
+                document.getElementById("icone-search").style.marginLeft = '30px'
+            } else {
+                document.getElementById("icone-search").style.marginLeft = 'auto'
+            }
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
